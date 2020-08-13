@@ -1,6 +1,6 @@
     // Video popup jquery script
     $(function () {
-      // Auto play modal video
+      // Auto play modal video (DO INCLUDE A class="video" into the <button>)
       $(".video").click(function () {
         var theModal = $(this).data("target"),
           videoSRC = $(this).attr("data-video"),
