@@ -1,4 +1,4 @@
-    // Video Play
+    // Video popup jquery script
     $(function () {
       // Auto play modal video
       $(".video").click(function () {
